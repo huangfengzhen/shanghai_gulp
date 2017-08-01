@@ -1,0 +1,452 @@
+.sh_banner {
+  height: 324px;
+  border: 1px solid transparent;
+  background-repeat:no-repeat;
+  background-position-x:center ;
+  .first_title, .second_title,.bottom {
+    color: @font_fff;
+  }
+  .first {
+    position: relative;
+    .label {
+      position: absolute;
+    }
+  }
+  .first_title {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 110px 0 20px;
+  }
+  .second_title {
+    .font24;
+  }
+  .bottom{
+    margin-top: 94px;
+  }
+}
+#sh_con {
+  .con_wrap {
+    padding: 0 50px;
+  }
+  .service {
+    padding-top:70px;
+    .service_title {
+      .second_title, .heading {
+        text-align: center;
+      }
+      .heading {
+        .font28;
+        color: @font_333;
+        line-height: 120%;
+        margin-bottom: 20px;
+      }
+      .second_title {
+        .font16;
+        color: @font_666;
+        line-height: 160%;
+      }
+    }
+    .service_main {
+      padding: 40px 0 20px;
+      .pictureBox {
+        width: 168px;
+        height: 194px;
+        background: url("../image/section/service/hexagon.png") no-repeat;
+        margin:0 auto 20px;
+        .img_box{
+          width: 168px;
+          height: 194px;
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+        }
+      }
+      .text_detail {
+        .first_title, .second_title {
+          .text_center;
+        }
+        .first_title {
+          color: @font_333;
+          .font22;
+          margin-bottom: 18px;
+        }
+        .second_title {
+          color: @font_2cb4ea;
+          .font16;
+          margin-bottom: 24px;
+        }
+        .third_text {
+          margin-bottom: 12px;
+          color: @font_666;
+          padding-left: 18px;
+          background: url("../image/section/service/spot.png") no-repeat 0 center;
+        }
+      }
+    }
+  }
+  .column {
+    .column_title {
+      h3.font26 {
+        color: @font_333;
+        line-height: 66px;
+        .border(border-bottom, 1px, solid, rgba(0, 0, 0, .3));
+      }
+      h3.noline{
+        border-bottom: none;
+      }
+    }
+    //条件
+    .column_note {
+      .column_note_left {
+        padding-top: 30px;
+      }
+      .note_list {
+        margin-bottom: 28px;
+        .note_title {
+          color: @font_2cb4ea;
+          margin-bottom: 10px;
+        }
+        .note_summary{
+          color:@font_333;
+        }
+      }
+    }
+    //费用
+    .column_cost {
+      padding-top: 30px;
+      .column_cost_left {
+        .cost_text {
+          .cost_text_every {
+            line-height: 30px;
+            margin-bottom: 8px;
+            .font16;
+            color: @font_333;
+          }
+        }
+        a.zixun {
+          margin-top: 40px;
+        }
+      }
+      .column_cost_right{
+        width: 355px;
+        height:271px;
+        padding:42px  37px  84px 37px;
+        background: url("../image/section/difference/export/blackboard.png") no-repeat;
+        .head{
+          color:@font_2cb4ea;
+          line-height: 108%;
+          padding-bottom: 8px;
+          margin-bottom: 14px;
+          border-bottom:4px double rgba(0,0,0,.2);
+        }
+        .state{
+          color:@font_666;
+          .font14;
+          line-height: 150%;
+          padding-left:14px;
+          text-indent: -14px;
+        }
+      }
+    }
+    //流程
+    .column_process{
+      display: table;
+      padding:40px 0 64px;
+      >li{
+        float:left;
+      }
+      .arc{
+        width: 82px;
+        height:82px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: #e5faff;
+        .border-radius();
+        box-shadow:0 0 5px rgba(0,0,0,.05);
+      }
+      .guild{
+        position:relative;
+        margin-top: 8px;
+        width: 82px;
+        display: inline-block;
+        line-height: 150%;
+        color:@font_333;
+        .font14;
+        text-align: center;
+        .msg{
+          display: none;
+          position: absolute;
+          top:-80px;
+          padding:10px;
+          .border-radius(7px);
+          .border(border,1px,solid,@font_2cb4ea);
+          text-align: left;
+          color:@font_2cb4ea;
+          background-color: @font_fff;
+          opacity:0;
+          z-index: 100;
+        }
+        .triangle{
+          display: inline-block;
+          position: absolute;
+          top:-11px;
+          width:20px;
+          height:18px;
+          background: url("../image/section/case.png") no-repeat;
+        }
+      }
+      .arrow{
+        margin: 22px 17px 0;
+      }
+    }
+
+  }
+  //***************流程公用的图片&距离
+  .column_liucheng{
+    .zhuce .arc{
+      background-image: url("../image/section/process/mouse.png") ;
+    }
+    .sign .arc{
+      background-image: url("../image/section/process/sign.png") ;
+    }
+    .order .arc{
+      background-image: url("../image/section/process/order.png") ;
+    }
+    .clearance .arc{
+      background-image: url("../image/section/process/clearance.png") ;
+    }
+    .exchange .arc{
+      background-image: url("../image/section/process/exchange.png") ;
+    }
+    .drawback .arc{
+      background-image: url("../image/section/process/drawback.png") ;
+    }
+    .payment .arc{
+      background-image: url("../image/section/process/payment.png") ;
+    }
+    .review .arc{
+      background-image: url("../image/section/process/review.png") ;
+    }
+    .business .arc{
+      background-image: url("../image/section/process/business.png") ;
+    }
+    .paytaxes .arc{
+      background-image: url("../image/section/process/paytaxes.png") ;
+    }
+    .customs .arc{
+      background-image: url("../image/section/process/customs.png") ;
+    }
+    .money .arc, .money1 .arc{
+      background-image: url("../image/section/process/money.png") ;
+    }
+    .export .arc,.export1 .arc{
+      background-image: url("../image/section/process/export.png") ;
+    }
+    .dan .arc{
+      background-image: url("../image/section/process/dan.png") ;
+    }
+    .pack .arc{
+      background-image: url("../image/section/process/pack.png") ;
+    }
+    .logistics .arc{
+      background-image: url("../image/section/process/logistic.png") ;
+    }
+    .sign .msg,.order .msg,.review .msg,.logistics .msg,.exchange .msg,.money .msg,.pack .msg,.clearance .msg,.drawback .msg{
+      width:262px;
+      left:-80px;
+      .triangle{
+        left:110px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .sh_banner {
+    height: 150/20rem;
+    background-size: 320/20rem;
+    background-repeat: no-repeat;
+  }
+  #sh_con {
+    .con_wrap {
+      padding: 0 10/20rem;
+    }
+    .service {
+      padding-top:12/20rem;
+      .service_title {
+        .heading {
+          font-size: 14/20rem;
+          line-height: 120%;
+          margin-bottom: 4/20rem;
+        }
+        .second_title {
+          font-size: 20/40rem;
+          line-height: 160%;
+        }
+      }
+      .service_main {
+        padding:14/20rem 0 0;
+        margin-left:-10/20rem;
+        margin-right: -10/20rem;
+        .list{
+          //background-color: #D28C8C;
+        }
+        .pictureBox {
+          width: 70/20rem;
+          height: 81/20rem;
+          background-size: 100%;
+          margin:0 auto 6/20rem;
+          .img_box{
+            width: 70/20rem;
+            height: 81/20rem;
+            img{
+              margin:0 auto;
+            }
+          }
+        }
+        .text_detail {
+          .first_title {
+            font-size: 22/40rem;
+            margin-bottom: 4/20rem;
+          }
+          .second_title {
+            font-size: 16/40rem;
+            margin-bottom: 8/20rem;
+          }
+          .third_text {
+            font-size: 12/40rem;
+            margin-bottom: 4/20rem;
+            padding-left: 4/20rem;
+            background-size: 3/20rem;
+          }
+        }
+      }
+    }
+    .column {
+      margin-top: 10/20rem;
+      .column_title {
+        h3.font26 {
+          font-size: 13/20rem;
+          line-height: 30/20rem;
+        }
+      }
+      //条件
+      .column_note {
+        .column_note_left {
+          padding-top:0;
+        }
+        .note_list {
+          margin-bottom: 0;
+          margin-top: 10/20rem;
+          .note_title {
+            margin-bottom: 6/20rem;
+            font-size: 12/20rem;
+          }
+          .note_summary{
+            font-size: 18/40rem;
+          }
+        }
+      }
+      //费用
+      .column_cost {
+        padding-top: 10/20rem;
+        padding-bottom: 0;
+        .column_cost_left {
+          .cost_text {
+            .cost_text_every {
+              line-height: 150%;
+              margin-bottom: 2/20rem;
+              font-size: 18/40rem;
+            }
+          }
+          a.zixun {
+            margin-top: 10/20rem;
+          }
+        }
+      }
+      //流程
+      .column_process{
+        display: none;
+      }
+      .column_process_phone{
+        padding:10/20rem 0 0;
+        margin-right: -6/20rem;
+        margin-left: -6/20rem;
+        position: relative;
+        .process_ul_left{
+          li{
+            float:left;
+          }
+        }
+        .process_ul_right{
+          li{
+            float:right;
+          }
+        }
+        .item{
+          width: 113/40rem;
+        }
+        .arc{
+          width: 44/20rem;
+          height:44/20rem;
+          background-size: 24/20rem;
+          background-color: #e5faff;
+          background-position: center center;
+          background-repeat: no-repeat;
+          .border-radius();
+          box-shadow:0 0 5px rgba(0,0,0,.05);
+          margin: 0 auto;
+        }
+        .guild{
+          position:static;
+          text-align: center;
+          display: block;
+          margin-top: 8/20rem;
+          width: 113/40rem;
+          line-height: 150%;
+          font-size: 12px;
+          .msg{
+            display: none;
+            top:-80px;
+            left:20px;
+            padding:4px;
+            font-size: 12/40rem;
+            position: absolute;
+            .border-radius(4px);
+            .border(border,1px,solid,@font_2cb4ea);
+            text-align: left;
+            color:@font_2cb4ea;
+            background-color: @font_fff;
+            opacity:0;
+            z-index: 100;
+          }
+          .triangle{
+            display: inline-block;
+            position: absolute;
+            top:-11px;
+          }
+        }
+        .arrow,.arrow_left{
+          margin: 14/20rem 8/20rem 0;
+          width: 24/40rem;
+          img{
+            width: 24/40rem;
+          }
+        }
+        .arrow_down{
+          margin:8/20rem 0 10/20rem;
+          .over;
+          img{
+            float:right;
+            margin-right: 20/20rem;
+            width: 40/40rem;
+          }
+        }
+      }
+    }
+  }
+}
+@import "../pages/export";
+@import "../pages/import";
+@import "../pages/logistics";
+@import "../pages/aboutus";
+@import "../pages/finance";

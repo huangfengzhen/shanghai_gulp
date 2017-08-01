@@ -1,0 +1,224 @@
+@import "../basic/var";
+//******************************banner
+.aboutus_banner{
+  background-image: url("../image/banner/aboutus/banner.png");
+  .first_title{
+    .sup{
+      .font16;
+      font-weight: 500;
+      position: relative;
+      top:8px;
+      left:10px;
+    }
+  }
+  .label{
+    top: -77px;
+    left: 120px;
+  }
+}
+//*******************************内容区
+.sh_aboutus_con{
+.company_profile>.wrap_point{
+  .over;
+  .company_profile_text{
+    float:right;
+  }
+}
+  .company_profile1{
+    height:630px;
+    background-image: url("../image/section/aboutus/profile1.png");
+    background-repeat: no-repeat;
+    background-position: center 56px;
+    .company_profile_text{
+      width:758px;
+      height:300px;
+      margin-top:134px;
+      margin-right:50px;
+      .profile_title1{
+        color:@font_333;
+        margin-bottom: 22px;
+      }
+      .profile_detail{
+        line-height: 30px;
+        color:@font_333;
+        letter-spacing: 1px;
+        text-align: left;
+        word-break: normal;
+      }
+    }
+  }
+  .company_profile2{
+    height:796px;
+    background-image: url("../image/section/aboutus/profile2.png");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    .company_profile_text{
+      width: 435px;
+      height: 300px;
+      margin-top: 274px;
+      margin-right: 204px;
+      .profile_title_big{
+        font-size: 58px;
+        color:@font_333;
+        font-weight: bold;
+        text-indent:35px;
+        margin-bottom: 15px;
+      }
+      .profile_detail{
+line-height: 30px;
+        color:@font_333;
+        padding-left: 100px;
+        position: relative;
+        .indent{
+          position: absolute;
+          left:0px;
+          top:0px;
+        }
+        .indent2{
+          letter-spacing: 4px;
+        }
+      }
+    }
+  }
+}
+//*******************************地址
+#address{
+  padding:44px 0 60px;
+  .address_title,.address_detail_p{
+    color:@font_333;
+    .text_center;
+  }
+  .address_title{
+    padding-left: 58px;
+  }
+  .horizontal_line{
+    text-align: center;
+    margin: 20px 0 24px;
+  }
+  .baidu_map{
+    width: 804px;
+    height:424px;
+    margin:26px auto 44px;
+  }
+  .address_detail_p{
+    line-height: 30px;
+    margin-bottom: 3px;
+  }
+}
+@media screen and (max-width: 768px){
+  .aboutus_banner{
+    background-image: url("../image/phone_banner/aboutus/banner.png");
+    position: relative;
+    z-index: 10;
+    .first_title{
+      font-size: 14/20rem;
+      margin: 56/20rem 0 10/20rem;
+      .sup{
+        font-size: 50%;
+        position: relative;
+       top:3/20rem;
+        left:10/20rem;
+      }
+    }
+    .second_title {
+      font-size: 12/20rem;
+      line-height: 18/20rem;
+    }
+    .label{
+      width: 124/20rem;
+      top: -40/20rem;
+      left: 30/20rem;
+    }
+  }
+  //*******************************内容区
+  .sh_aboutus_con{
+    .company_profile>.wrap_point{
+      overflow: visible;
+      .company_profile_text{
+        float:none;
+      }
+    }
+    .company_profile1{
+      height:430/20rem;
+      background-image: url("../image/section/aboutus/c.png"), url("../image/section/aboutus/floor.png");
+      background-position: 10/20rem -20/20rem,center bottom;
+      background-size: 156/20rem,320/20rem;
+      .company_profile_text{
+        width:100%;
+        height:auto;
+        margin-top:0;
+        padding: 85/20rem 10/20rem 0 14/20rem;
+        margin-right:50/20rem;
+        .profile_title1{
+          margin-bottom: 4/20rem;
+          font-size: 20/40rem;
+        }
+        .profile_detail{
+          line-height: 19/20rem;
+          font-size: 20/40rem;
+          letter-spacing: 1/20rem;
+        }
+      }
+    }
+    .company_profile2{
+      height:330/20rem;
+      background-image: url("../image/section/aboutus/profile2_p.png");
+      background-position: center 0;
+      background-size: 320/20rem;
+      padding-top:94/20rem;
+      .company_profile_text{
+        width: 260/20rem;
+        height: 200/20rem;
+        margin-top: 0;
+        margin-left: 44/20rem;
+        margin-right: 0;
+        .profile_title_big{
+          font-size: 24/20rem;
+          text-indent: 80/20rem;
+          margin-bottom: 6/20rem;
+        }
+        .profile_detail{
+          line-height: 15/20rem;
+          font-size: 20/40rem;
+          padding-left: 0;
+          position: static;
+          .indent{
+            position: static;
+            display: block;
+            text-indent: 10/20rem;
+          }
+          .indent1{
+            letter-spacing: 0;
+          }
+          .indent2{
+            letter-spacing: 3/20rem;
+          }
+          .after_indent{
+            display: block;
+            padding-left: 15/20rem;
+          }
+        }
+      }
+    }
+  }
+  #address{
+    padding:14/20rem 0 12/20rem;
+    .address_title{
+      padding-left: 0;
+      font-size: 14/20rem;
+    }
+    .baidu_map_wrap{
+      padding:0;
+    }
+    .baidu_map{
+      width:320/20rem;
+      height:200/20rem;
+      margin:14/20rem auto 14/20rem;
+    }
+    .address_detail_p{
+      line-height:200%;
+      margin-bottom: 3/20rem;
+      font-size:20/40rem;
+    }
+  }
+}

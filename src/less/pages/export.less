@@ -1,0 +1,128 @@
+//******************************banner
+.export_banner{
+  background-image: url("../image/banner/export/banner.png") ;
+  .label{
+    top: -75px;
+    left: 129px;
+  }
+}
+//*******************************内容区
+.sh_export_con{
+  .export_service{
+    .clearance{
+      width:210px;
+      margin:0 158px 0 78px;
+    }
+    .exchange{
+      width:226px;
+      margin-right: 122px;
+    }
+    .advance{
+      width:304px;
+    }
+  }
+  //条件
+  .export_column{
+    .column_note {
+      .column_note_right {
+        padding-top: 70px;
+      }
+
+    }
+  }
+  //费用
+  .column_cost{
+    position: relative;
+    padding:44px 0 65px;
+    .column_cost_right{
+      position: absolute;
+      right:48px;
+      top:24px;
+    }
+  }
+  //流程
+  .column_process{
+    .zhuce .msg{
+      width:190px;
+      left:0;
+      .triangle{
+        left:30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .export_banner{
+    background-image: url("../image/phone_banner/export/banner.png") ;
+    background-size: 320/20rem;
+    .first_title{
+      font-size: 25/20rem;
+      margin: 56/20rem 0 10/20rem;
+      .sup{
+        font-size: 50%;
+        position: relative;
+        top:3/20rem;
+        left:10/20rem;
+      }
+    }
+    .second_title {
+      font-size: 12/20rem;
+      line-height: 18/20rem;
+    }
+    .label{
+      width: 124/20rem;
+      top: -40/20rem;
+      left: 64/20rem;
+    }
+  }
+  .sh_export_con{
+    .export_service{
+      .clearance{
+        width:166/40rem;
+        margin:0 14/20rem 0 8/20rem ;
+        .img_box{
+          img{
+            width: 40/20rem;
+          }
+        }
+      }
+      .exchange{
+        width:190/40rem;
+        margin-right: 20/40rem;
+        .img_box{
+          img{
+            width: 53/20rem;
+          }
+        }
+      }
+      .advance{
+        width:210/40rem;
+        .img_box{
+          img{
+            width: 44/20rem;
+          }
+        }
+      }
+    }
+    //条件
+    .export_column{
+      margin-top: 5/20rem;
+    }
+    //费用
+    .column_cost{
+      position: relative;
+      padding:10/20rem 0 10/20rem;
+    }
+    //流程
+    .column_process{
+      .zhuce .msg{
+        width:190/20rem;
+        left:0;
+        .triangle{
+          left:30/20rem;
+        }
+      }
+    }
+  }
+}

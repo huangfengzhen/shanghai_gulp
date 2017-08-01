@@ -1,0 +1,117 @@
+//******************************banner
+.import_banner{
+  background-image: url("../image/banner/import/banner.png");
+  .label{
+    top: -75px;
+    left: 129px;
+  }
+}
+//*******************************内容区
+.sh_import_con{
+  .import_service{
+    .clearance{
+      width:243px;
+      margin:0 143px 0 78px;
+    }
+    .pay{
+      width:244px;
+      margin-right: 143px;
+    }
+    .payment{
+      width:238px;
+    }
+  }
+  //条件
+  .import_column{
+    margin-top: 10px;
+    padding-bottom:100px;
+    .column_note {
+      position: relative;
+      .column_note_right {
+        position: absolute;
+        right: 2px;
+        top: -30px;
+      }
+    }
+  }
+  //流程
+  .column_liucheng{
+    margin-top: 34px;
+  }
+  .column_process{
+    padding:40px 0 40px!important;
+  }
+}
+@media screen and (max-width: 768px){
+  .import_banner{
+    background-image: url("../image/phone_banner/import/banner.png");
+    background-size: 320/20rem;
+    .first_title{
+      font-size: 24/20rem;
+      margin: 56/20rem 0 10/20rem;
+      .sup{
+        font-size: 50%;
+        position: relative;
+        top:3/20rem;
+        left:10/20rem;
+      }
+    }
+    .second_title {
+      font-size: 12/20rem;
+      line-height: 18/20rem;
+    }
+    .label{
+      width: 124/20rem;
+      top: -40/20rem;
+      left: 60/20rem;
+    }
+  }
+  .sh_import_con{
+    .import_service{
+      .clearance{
+        width:190/40rem;
+        margin:0 14/20rem 0 8/20rem ;
+        .img_box{
+          img{
+            width: 40/20rem;
+          }
+        }
+      }
+      .pay{
+        width:192/40rem;
+        margin-right: 20/40rem;
+        .img_box{
+          img{
+            width: 45/20rem;
+          }
+        }
+      }
+      .payment{
+        width:182/40rem;
+        .img_box{
+          img{
+            width: 50/20rem;
+          }
+        }
+      }
+    }
+    //条件
+    .import_column{
+      margin-top: 5/20rem;
+      padding-bottom:4/20rem;
+      .column_note {
+        position: relative;
+        .column_note_right {
+          display: none;
+        }
+      }
+    }
+    //流程
+    .column_liucheng{
+      margin-top: 10px;
+    }
+    .column_process{
+      padding:10px 0 20px!important;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+上海项目依赖环境为node.js，开发工具为atom编译/webstrom编译，构建工具为gulp.js
+
+bulid文件夹         是完成的项目
+
+src文件夹           原来的资源
+
+gulpfile.js         构建任务
+
+package.json        配置文件
