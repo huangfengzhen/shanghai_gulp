@@ -5,10 +5,10 @@
 ************************************************************************************
 
 ```
-上海项目依赖  node环境   gulp管理
 
-预览地址[链接](https://loveyou1314.github.io/shanghai_gulp/sh_bulid) https://loveyou1314.github.io/shanghai_gulp/sh_bulid
+上海项目依赖  node环境   gulp管理
 
 ```
 
-[新手指南](https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3)
+### [预览地址链接](https://loveyou1314.github.io/shanghai_gulp/sh_bulid) https://loveyou1314.github.io/shanghai_gulp/sh_bulid)
+
